@@ -1,0 +1,67 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 85vh;
+    display: grid;
+    place-items: center;
+}
+
+#fa{
+    font-size: 75px; 
+}
+
+h1{
+    font-family:fantasy ;
+    color:black;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+}
+
+form{
+    background-color:slategray;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0 10px 6px -6px lightcyan;
+    -moz-box-shadow: 0 10px 6px -6px lightcyan;
+    box-shadow: 0 10px 6px -6px black;
+    border-radius: 10px;
+}
+
+body {
+   
+    background-repeat: no-repeat;
+    background-position:top left;
+    background-size: cover;
+    }
+
+#tempCalc label{
+    font-size: 28px;
+}
+
+#resultContainer{
+    font-size: 30px;
+}
+
+[type="submit"]{
+    color: #fff;
+    display: block;
+    width: 160px;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 450;
+    border-radius: 6px;
+    background:red;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+}
+
+[type="submit"]:hover
+{
+    color:#fff;
+    background-color:rgb(38, 38, 38);
+}
